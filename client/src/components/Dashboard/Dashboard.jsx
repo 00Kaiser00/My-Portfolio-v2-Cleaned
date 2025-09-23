@@ -83,7 +83,7 @@ const Dashboard = () => {
                 <h1 className="text-2xl font-bold mb-4">Contacts</h1>
                 <p>Email: ErikJKoivu@gmail.com</p>
                 <p>GitHub: <a href="https://github.com/00Kaiser00" target="_blank">https://github.com/00Kaiser00</a></p>
-                <a href="/Erik's_Resume.pdf" download="Erik's_Resume.pdf">Download Resume</a>
+                <a href="/Erik's_Improved_Resume.pdf" download="Erik's_Improved_Resume.pdf">Download Resume</a>
             </div>
 
         </div>
