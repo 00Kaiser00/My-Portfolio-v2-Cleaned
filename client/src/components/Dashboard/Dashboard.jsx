@@ -20,65 +20,103 @@ const Dashboard = () => {
             {/* Other sections */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6 w-full max-w-6xl">
                 {/* Frame Works */}
-                <div className='bg-white rounded border-3 border-black shadow-md p-4 mb-6 w-full max-w-2xl text-center'>
-                    <h1 className="text-2xl font-bold mb-4">Frame Works</h1>
-                    <ul>
-                        <li className="text-lg"><img src="/icons/React.svg" alt="React" className="w-10 h-10 rounded-full inline-block" /> React </li>
-                        <li className="text-lg"><img src="/icons/Node.js.svg" alt="Node.js" className="w-10 h-10 rounded-full inline-block" /> Node.js </li>
-                        <li className="text-lg"><img src="/icons/Express.svg" alt="Express" className="w-10 h-10 rounded-full inline-block" /> Express </li>
-                        <li className="text-lg"><img src="/icons/Angular.svg" alt="Angular" className="w-10 h-10 rounded-full inline-block" /> Angular Version 13 </li>
-                        <li className="text-lg"><img src="/icons/Tailwind.svg" alt="Tailwind css" className="w-10 h-10 rounded-full inline-block" /> Tailwind CSS </li>
-                        <li className="text-lg"><img src="/icons/Vite.svg" alt="Vite" className="w-10 h-10 rounded-full inline-block" /> Vite </li>
-                        <li className="text-lg"><img src="/icons/SpringBoot.svg" alt="SpringBoot" className="w-10 h-10 rounded-full inline-block" /> A bit of SpringBoot </li>
-                    </ul>
+                <div className='bg-white rounded border-3 border-black shadow-md p-4 mb-6 w-full max-w-2xl'>
+                    <h1 className="text-2xl font-bold mb-4 text-center">Frame Works</h1>
+                    <table className="table-auto w-full">
+                        <tbody>
+                            <tr>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/React.svg" alt="React" className="w-10 h-10 rounded-full inline-block" /> React </td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Node.js.svg" alt="Node.js" className="w-10 h-10 rounded-full inline-block" /> Node.js </td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Express.svg" alt="Express" className="w-10 h-10 rounded-full inline-block" /> Express </td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Angular.svg" alt="Angular" className="w-10 h-10 rounded-full inline-block" /> Angular Version 13 </td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Tailwind.svg" alt="Tailwind css" className="w-10 h-10 rounded-full inline-block" /> Tailwind CSS </td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Vite.svg" alt="Vite" className="w-10 h-10 rounded-full inline-block" /> Vite </td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-2 text-lg"></td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/SpringBoot.svg" alt="SpringBoot" className="w-10 h-10 rounded-full inline-block" /> A bit of SpringBoot </td>
+                                <td className="px-4 py-2 text-lg"></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
 
                 {/* Programming Languages */}
-                <div className='bg-white rounded border-3 border-black shadow-md p-4 mb-6 w-full max-w-2xl text-center'>
-                    <h1 className="text-2xl font-bold mb-4">Programming Languages</h1>
-                    <ul>
-                        <li className="text-lg"><img src="/icons/JS.svg" alt="JavaScript" className="w-10 h-10 rounded-full inline-block" /> JavaScript </li>
-                        <li className="text-lg"><img src="/icons/TS.svg" alt="TypeScript" className="w-10 h-10 rounded-full inline-block" /> TypeScript </li>
-                        <li className="text-lg"><img src="/icons/HTML5.svg" alt="HTML" className="w-10 h-10 rounded-full inline-block" /> HTML </li>
-                        <li className="text-lg"><img src="/icons/CSS.svg" alt="CSS" className="w-10 h-10 rounded-full inline-block" /> CSS </li>
-                        <li className="text-lg"><img src="/icons/Java.svg" alt="Java" className="w-10 h-10 rounded-full inline-block" /> Java </li>
-                        <li className="text-lg"><img src="/icons/Python.svg" alt="Python" className="w-10 h-10 rounded-full inline-block" /> Python </li>
-                        <li className="text-lg"><img src="/icons/C.svg" alt="C" className="w-10 h-10 rounded-full inline-block" /> C </li>
-                        <li className="text-lg"><img src="/icons/CSharp.svg" alt="C#" className="w-10 h-10 rounded-full inline-block" /> C# </li>
-                    </ul>
+                <div className='bg-white rounded border-3 border-black shadow-md p-4 mb-6 w-full max-w-2xl'>
+                    <h1 className="text-2xl font-bold mb-4 text-center">Programming Languages</h1>
+                    <table className="table-auto w-full">
+                        <tbody>
+                            <tr>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/JS.svg" alt="JavaScript" className="w-10 h-10 rounded-full inline-block" /> JavaScript </td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/TS.svg" alt="TypeScript" className="w-10 h-10 rounded-full inline-block" /> TypeScript </td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/HTML5.svg" alt="HTML" className="w-10 h-10 rounded-full inline-block" /> HTML </td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/CSS.svg" alt="CSS" className="w-10 h-10 rounded-full inline-block" /> CSS </td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Java.svg" alt="Java" className="w-10 h-10 rounded-full inline-block" /> Java </td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Python.svg" alt="Python" className="w-10 h-10 rounded-full inline-block" /> Python </td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/C.svg" alt="C" className="w-10 h-10 rounded-full inline-block" /> C </td>
+                                <td className="px-4 py-2 text-lg"></td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/CSharp.svg" alt="C#" className="w-10 h-10 rounded-full inline-block" /> C# </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
 
                 {/* Technical Skills */}
-                <div className='bg-white rounded border-3 border-black shadow-md p-4 mb-6 w-full max-w-2xl text-center'>
-                    <h1 className="text-2xl font-bold mb-4">Technical Skills</h1>
-                    <ul>
-                        <li className="text-lg"><img src="/icons/Azure.svg" alt="Azure" className="w-10 h-10 rounded-full inline-block" /> Azure </li>
-                        <li className="text-lg"><img src="/icons/Render.svg" alt="Render" className="w-10 h-10 rounded-full inline-block" /> Render </li>
-                        <li className="text-lg"><img src="/icons/MongoDB.svg" alt="MongoDB" className="w-10 h-10 rounded-full inline-block" /> MongoDB </li>
-                        <li className="text-lg"><img src="/icons/MySQL.svg" alt="MySQL" className="w-10 h-10 rounded-full inline-block" /> MySQL </li>
-                        <li className="text-lg"><img src="/icons/VSCode.svg" alt="VS Code" className="w-10 h-10 rounded-full inline-block" /> VS Code </li>
-                        <li className="text-lg"><img src="/icons/Eclipse.svg" alt="Eclipse" className="w-10 h-10 rounded-full inline-block" /> Eclipse </li>
-                        <li className="text-lg"><img src="/icons/Git.svg" alt="Git" className="w-10 h-10 rounded-full inline-block" /> Git </li>
-                        <li className="text-lg"><img src="/icons/Git.svg" alt="Git Workflows" className="w-10 h-10 rounded-full inline-block" /> Git Workflows </li>
-                        <li className="text-lg"><img src="/icons/Jira.svg" alt="Jira" className="w-10 h-10 rounded-full inline-block" /> Jira </li>
-                        <li className="text-lg"><img src="/icons/Agile.svg" alt="Agile" className="w-10 h-10 rounded-full inline-block" /> Agile </li>
-                        <li className="text-lg"><img src="/icons/Agile.svg" alt="Scrum" className="w-10 h-10 rounded-full inline-block" /> Scrum </li>
-                    </ul>
+                <div className='bg-white rounded border-3 border-black shadow-md p-4 mb-6 w-full max-w-2xl'>
+                    <h1 className="text-2xl font-bold mb-4 text-center">Technical Skills</h1>
+                    <table className="table-auto w-full">
+                        <tbody>
+                            <tr>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Azure.svg" alt="Azure" className="w-10 h-10 rounded-full inline-block" /> Azure </td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Render.svg" alt="Render" className="w-10 h-10 rounded-full inline-block" /> Render </td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/MongoDB.svg" alt="MongoDB" className="w-10 h-10 rounded-full inline-block" /> MongoDB </td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/MySQL.svg" alt="MySQL" className="w-10 h-10 rounded-full inline-block" /> MySQL </td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/VSCode.svg" alt="VS Code" className="w-10 h-10 rounded-full inline-block" /> VS Code </td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Eclipse.svg" alt="Eclipse" className="w-10 h-10 rounded-full inline-block" /> Eclipse </td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Git.svg" alt="Git" className="w-10 h-10 rounded-full inline-block" /> Git </td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Git.svg" alt="Git Workflows" className="w-10 h-10 rounded-full inline-block" /> Git Workflows </td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Jira.svg" alt="Jira" className="w-10 h-10 rounded-full inline-block" /> Jira </td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Agile.svg" alt="Agile" className="w-10 h-10 rounded-full inline-block" /> Agile </td>
+                                <td className="px-4 py-2 text-lg"></td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Agile.svg" alt="Scrum" className="w-10 h-10 rounded-full inline-block" /> Scrum </td>  
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
 
                 {/* Skills */}
-                <div className='bg-white rounded border-3 border-black shadow-md p-4 mb-6 w-full max-w-2xl text-center'>
-                    <h1 className="text-2xl font-bold mb-4">Skills</h1>
-                    <ul>
-                        <li className="text-lg"><img src="/icons/Leadership.svg" alt="Leadership" className="w-10 h-10 rounded-full inline-block" /> Leadership </li>
-                        <li className="text-lg"><img src="/icons/Teamwork.svg" alt="Teamwork" className="w-10 h-10 rounded-full inline-block" /> Teamwork </li>
-                        <li className="text-lg"><img src="/icons/Communication.svg" alt="Communication" className="w-10 h-10 rounded-full inline-block" /> Communication </li>
-                        <li className="text-lg"><img src="/icons/Problem_Solving.svg" alt="Problem Solving" className="w-10 h-10 rounded-full inline-block" /> Problem Solving </li>
-                        <li className="text-lg"><img src="/icons/Time_Management.svg" alt="Time Management" className="w-10 h-10 rounded-full inline-block" /> Time Management </li>
-                        <li className="text-lg"><img src="/icons/Microsoft.svg" alt="Microsoft" className="w-10 h-10 square-full inline-block" /> Microsoft 365 </li>
-                    </ul>
+                <div className='bg-white rounded border-3 border-black shadow-md p-4 mb-6 w-full max-w-2xl'>
+                    <h1 className="text-2xl font-bold mb-4 text-center">Skills</h1>
+                    <table className="table-auto w-full">
+                        <tbody>
+                            <tr>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Leadership.svg" alt="Leadership" className="w-10 h-10 rounded-full inline-block" /> Leadership </td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Teamwork.svg" alt="Teamwork" className="w-10 h-10 rounded-full inline-block" /> Teamwork </td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Communication.svg" alt="Communication" className="w-10 h-10 rounded-full inline-block" /> Communication </td>
+                            </tr>
+                            <tr>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Problem_Solving.svg" alt="Problem Solving" className="w-10 h-10 rounded-full inline-block" /> Problem Solving </td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Time_Management.svg" alt="Time Management" className="w-10 h-10 rounded-full inline-block" /> Time Management </td>
+                                <td className="px-4 py-2 text-lg"><img src="/icons/Microsoft.svg" alt="Microsoft" className="w-10 h-10 square-full inline-block" /> Microsoft 365 </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
+
+            {/* Contacts */}
             <div className='bg-white rounded border-3 border-black shadow-md p-4 mb-6 w-full max-w-6xl text-center'>
                 <h1 className="text-2xl font-bold mb-4">Contacts</h1>
                 <p>Email: ErikJKoivu@gmail.com</p>
