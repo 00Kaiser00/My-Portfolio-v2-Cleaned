@@ -18,7 +18,7 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
-      <div className='bg-gradient-to-r from-teal-300 to-gray-600 min-h-screen flex flex-col'>
+      <div className='bg-gradient-to-b from-gray-400 to-gray-100 min-h-screen flex flex-col'>
         <div className="flex-1 overflow-y-hidden flex-basis-0">
           <Routes>
             <Route path="/" element={<Dashboard />} />
