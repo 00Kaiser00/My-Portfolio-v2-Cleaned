@@ -5,6 +5,75 @@ function Projects() {
 
     return (
         <div className="mx-auto flex flex-col items-center mt-10 px-4"> {/* Added horizontal padding */}
+
+            {/* Trivia Quiz */}
+            <div className="bg-white rounded border-3 border-black shadow-md p-4 mb-6 w-full max-w-6xl">
+                <h1 className="text-2xl font-bold mb-4 text-center">Trivia Quiz</h1>
+
+                {/* Responsive Flex Container */}
+                <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
+                    {/* Responsive Image */}
+                    <img
+                        src="/Trivia_Quiz.png"
+                        alt="Trivia Quiz"
+                        className="w-full max-w-sm h-auto rounded"
+                    />
+
+                    {/* Text Block */}
+                    <p className="text-lg text-center md:text-left">
+                        Trivia Quiz is a responsive MERN stack application designed for both desktop and mobile. 
+                        The app features six engaging question categories—Movies, TV Shows, Music, Video Games, Fun Facts, and Random—and includes subtle animations and background music for an interactive user experience. 
+                        The interface is styled with Tailwind CSS, ensuring a clean, modern, and mobile-friendly design.
+                    </p>
+                </div>
+
+                {/* Show More Button */}
+                <div className="flex justify-center">
+                    <button
+                        className="rounded bg-white text-black py-2 px-4 border-3 border-black mt-4 mb-4"
+                        onClick={() => setShowMore(!showMore)}
+                    >
+                        Show {showMore ? "Less" : "More"}
+                    </button>
+                </div>
+
+                {/* Expanded Details */}
+                {showMore && (
+                    <div className="flex flex-col items-center text-center md:text-left">
+                        <p className="text-lg mt-2">
+                            When you first visit Trivia Quiz, you are presented with several interactive options. 
+                            The Start button takes you directly to the category selection screen to begin the trivia, while the Number of Questions button allows you to choose from 5, 10, 15, or 20 questions. 
+                            The Play Music button lets users enjoy background music for a more engaging experience, and the Create Question button enables users to add their own questions to the quiz from the available categories.
+                        </p>
+
+                        <p className="text-lg mt-4 break-all">
+                            Visit the site:{" "}
+                            <a
+                                href="https://trivia-t226.onrender.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-purple-500 underline"
+                            >
+                                https://trivia-t226.onrender.com/
+                            </a>
+                        </p>
+
+                        <p className="text-lg mt-4 break-all">
+                            View the code:{" "}
+                            <a
+                                href="https://github.com/00Kaiser00/Trivia-Cleaned.git"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-purple-500 underline"
+                            >
+                                https://github.com/00Kaiser00/Trivia-Cleaned.git
+                            </a>
+                        </p>
+                    </div>
+                )}
+            </div>
+
+            {/* Message Board */}
             <div className="bg-white rounded border-3 border-black shadow-md p-4 mb-6 w-full max-w-6xl">
                 <h1 className="text-2xl font-bold mb-4 text-center">Message Board</h1>
 
